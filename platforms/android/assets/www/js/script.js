@@ -1,6 +1,7 @@
 ﻿function onBackKeyDown(e) {
     e.preventDefault();
     console.log('Back Button is Pressed!');
+    window.location.href = "index.html"
 }
 
 function callLifeCounter() {

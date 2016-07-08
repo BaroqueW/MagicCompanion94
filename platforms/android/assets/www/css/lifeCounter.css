@@ -162,7 +162,7 @@ label {
 
 #reset {
 	display: block;
-	font-size: 3em;
+	font-size: 1em;
 	line-height: 1.3em;
 	text-align: center;
 	height: 65px;
@@ -189,7 +189,7 @@ label {
 	bottom: 0px;
 	left: 0px;
   
-	font-size: 3em;
+	font-size: 1em;
 	line-height: 1.3em;
 	text-align: center;  
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
