@@ -37,11 +37,11 @@ var app = {
 
 
         document.addEventListener("backbutton", onBackKeyDown, false);
-        document.getElementById("lifeCounter").addEventListener("click", callAnotherPage(lifeCounter));
-        document.getElementById("tournamentJournal").addEventListener("click", callAnotherPage(tournamentJournal));
-        document.getElementById("cardBrowser").addEventListener("click", callAnotherPage(cardBrowser));
-        document.getElementById("deckBuilder").addEventListener("click", callAnotherPage(deckBuilder));
-        document.getElementById("settings").addEventListener("click", callAnotherPage(settings));
+        document.getElementById("lifeCounter").addEventListener("click", callLifeCounter);
+        document.getElementById("tournamentJournal").addEventListener("click", callTournamentJournal);
+        document.getElementById("cardBrowser").addEventListener("click", callCardBrowser);
+        document.getElementById("deckBuilder").addEventListener("click", callDeckBuilder);
+        document.getElementById("settings").addEventListener("click", callSettings);
 
 
     },

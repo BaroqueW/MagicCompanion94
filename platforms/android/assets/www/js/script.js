@@ -3,9 +3,23 @@
     console.log('Back Button is Pressed!');
 }
 
-function callAnotherPage(name) {
-    window.location = name.concat(".html")
-    console.log('LifeCounter Button is Pressed!');
+function callLifeCounter() {
+    window.location.href = "lifeCounter.html";
 }
 
+function callDeckBuilder() {
+    window.location.href = "deckBuilder.html";
+}
+
+function callTournamentJournal() {
+    window.location.href = "tournamentJournal.html";
+}
+
+function callCardBrowser() {
+    window.location.href = "cardBrowser.html";
+}
+
+function callSettings() {
+    window.location.href = "settings.html";
+}
 
